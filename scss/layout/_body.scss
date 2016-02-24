@@ -1,0 +1,23 @@
+.featuredArtists {
+  width: 100%;
+  img {
+    width: 30%;
+    display: inline;
+  }
+}
+
+.second-content {
+  background: linear-gradient(#fff, transparent 50%), linear-gradient(0deg, #fff, transparent 60%), gray;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+  // color:white;
+  padding: 80px;
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 35px;
+    text-shadow: 3px 3px 3px white;
+  }
+}

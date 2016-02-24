@@ -1,0 +1,43 @@
+ul {
+  position: fixed;
+  display: block;
+  background-color: grey;
+  height: 90px;
+  margin-top: -10px;
+  border-bottom: 2px solid black;
+  width: 100%;
+
+    a {
+      list-style-type: none;
+      display: inline;
+      float:right;
+      padding: 25px;
+      padding-top: 35px;
+      padding-bottom: 33px;
+      border-left: 1px solid rgba(0,0,0,0.4);;
+      }
+        li {
+          color: black;
+          letter-spacing: 1px;
+          text-shadow: 4px 4px 4px  white;
+          font-size: 20px;
+        }
+
+    img {
+      height:70px;
+      margin-top: 10px;
+      padding-top: 10px;
+    }
+
+    h1 {
+      display: inline;
+      font-style: italic;
+      color: rgba(0,0,0,0.4);
+      margin: 33px;
+      top: -23px;
+      position: relative;
+
+
+    }
+
+}

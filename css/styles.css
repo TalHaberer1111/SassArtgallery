@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  margin: -8px; }
+
+ul {
+  position: fixed;
+  display: block;
+  background-color: grey;
+  height: 90px;
+  margin-top: -10px;
+  border-bottom: 2px solid black;
+  width: 100%; }
+  ul a {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding: 25px;
+    padding-top: 35px;
+    padding-bottom: 33px;
+    border-left: 1px solid rgba(0, 0, 0, 0.4); }
+  ul li {
+    color: black;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 4px  white;
+    font-size: 20px; }
+  ul img {
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 10px; }
+  ul h1 {
+    display: inline;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 33px;
+    top: -23px;
+    position: relative; }
+
+.featuredArtists {
+  width: 100%; }
+  .featuredArtists img {
+    width: 30%;
+    display: inline; }
+
+.second-content {
+  background: linear-gradient(#fff, transparent 50%), linear-gradient(0deg, #fff, transparent 60%), gray;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+  padding: 80px; }
+  .second-content p {
+    font-size: 20px; }
+  .second-content h2 {
+    font-size: 35px;
+    text-shadow: 3px 3px 3px white; }
+
+.headerPic {
+  background: linear-gradient(#4a8c82, transparent 50%), linear-gradient(0deg, #fff, transparent 60%), url("../img/Gallery.jpg");
+  background-size: cover;
+  height: 850px;
+  padding-top: 190px;
+  margin-top: -16px;
+  text-align: center;
+  color: white;
+  text-shadow: 6px 6px 6px black; }
+  .headerPic header {
+    padding-top: 120px; }
+  .headerPic h1 {
+    font-size: 40px;
+    letter-spacing: 2px; }
+  .headerPic h3 {
+    font-size: 30px;
+    letter-spacing: 2px; }
+  .headerPic button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20%; }
+
+/*# sourceMappingURL=styles.css.map */
